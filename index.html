@@ -21,24 +21,43 @@
         --color-textoneColor: rgba(19, 19, 24, 0.5);
         --color-texttwoColor: rgba(19, 19, 24, 0.3);
         --color-primaryColor: #131318;
-        --color-navColor: #131318;
+        --color-navColor: rgba(255, 255, 255, 0.6);
       }
     </style>
 </head>
 <body class="font-[Manrope]">
-    <header class="w-11/12 lg:w-5/6 2xl:w-4/6 mx-auto">
+    <header class="w-11/12 lg:w-5/6 2xl:w-10/12 mx-auto">
       <nav class="flex justify-between mt-5">
-        nav
+        <div class="flex items-center gap-6 lg:hidden">
+          <i class="block lg:hidden fa-solid fa-bars"></i>
+          <h3 class="text-3xl font-extrabold">Hockey<span class="text-btnColor">'</span>s</h3>
+        </div>
+        <h3 class="hidden lg:flex text-3xl font-extrabold">Hockey<span class="text-btnColor">'</span>s</h3>
+        <ul class="hidden lg:flex items-center gap-8 text-base text-[#424247]">
+          <li class="text-btnColor underline font-medium"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="flex items-center gap-6">
+        <div class="hidden lg:block">
+          <i class="fa-solid fa-magnifying-glass text-[#89898B] cursor-pointer text-xl"></i>
+        </div>
+        <button class="text-base font-semibold text-white px-5 py-2 bg-btnColor rounded-lg cursor-pointer">Get Ticket</button>
+        </div>
       </nav>
       <!-- Hero Section Code Start Here -->
       <section class="my-5">
-        Hero
+        <img class="w-full" src="/Images/1.png" alt="banner image">
       </section>
       <!-- Hero Section Code End Here -->
     </header>
-    <main class="w-11/12 lg:w-5/6 2xl:w-4/6 mx-auto">
-      main
+    <main class="w-11/12 lg:w-5/6 2xl:w-10/12 mx-auto">
+      <!-- Program Sections Code Start Here -->
+       
+      <!-- Program Sections Code End Here -->
     </main>
-    <footer>footer</footer>
+    
 </body>
 </html>
