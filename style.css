@@ -1,1 +1,25 @@
 @import "tailwindcss";
+.program-card-one-bg{
+    background-image: url("/Images/2.png");
+    background-color: rgba(19, 19, 24, 0.5);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.program-card-two-bg{
+    background-image: url("/Images/3.png");
+    background-color: rgba(19, 19, 24, 0.5);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.program-card-three-bg{
+    background-image: url("/Images/4.png");
+    background-color: rgba(19, 19, 24, 0.5);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
